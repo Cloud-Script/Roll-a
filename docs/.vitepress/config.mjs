@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base: '/Roll-a/',
     title: "Roll a Template",
     description: "Get all docs for roll a template here!",
     themeConfig: {

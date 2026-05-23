@@ -9,6 +9,11 @@ You can adjust all general settings directly inside the main configuration scrip
 
 **Path:** `ReplicatedStorage > Shared > Config > GeneralConfig`
 
+::: danger
+The RESTOCK_COOLDOWN template was set to 10 sec.
+Make sure to change it back to 300 (5 min) or your preferred value.
+:::
+
 ```lua
 return {
     GROUP_ID = 436177122, -- Your Roblox group ID
